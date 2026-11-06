@@ -86,3 +86,9 @@ footer p { margin: 0 0 8px; max-width: 60em; }
   nav.main a { white-space: nowrap; }
   .hero { padding: 32px 0 28px; }
 }
+/* cookie consent (GA4 only after "Allow") */
+.consent { position: fixed; left: 0; right: 0; bottom: 0; z-index: 50; background: var(--bg-2); border-top: 1px solid var(--line); padding: 14px 0; }
+.consent p { margin: 0 0 10px; color: var(--muted); font-size: 15px; }
+.consent .consent-btns { display: flex; gap: 10px; flex-wrap: wrap; margin: 0; }
+.consent button.btn { font: inherit; cursor: pointer; }
+.consent[hidden] { display: none; }
