@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://deadware.games/</loc></url>
-  <url><loc>https://deadware.games/hp2/</loc></url>
+  <url><loc>https://deadware.games/about/</loc></url>
+  <url><loc>https://deadware.games/enthusiasts/</loc></url>
+  <url><loc>https://deadware.games/faq/</loc></url>
+  <url><loc>https://deadware.games/games/</loc></url>
   <url><loc>https://deadware.games/heroes4/</loc></url>
+  <url><loc>https://deadware.games/how/</loc></url>
+  <url><loc>https://deadware.games/hp2/</loc></url>
   <url><loc>https://deadware.games/rotk/</loc></url>
+  <url><loc>https://deadware.games/stories/</loc></url>
+  <url><loc>https://deadware.games/stories/heroes-4-for-heroes-3-players/</loc></url>
+  <url><loc>https://deadware.games/stories/not-that-chamber-of-secrets/</loc></url>
   <url><loc>https://deadware.games/uk/</loc></url>
-  <url><loc>https://deadware.games/uk/hp2/</loc></url>
+  <url><loc>https://deadware.games/uk/about/</loc></url>
+  <url><loc>https://deadware.games/uk/enthusiasts/</loc></url>
+  <url><loc>https://deadware.games/uk/faq/</loc></url>
+  <url><loc>https://deadware.games/uk/games/</loc></url>
   <url><loc>https://deadware.games/uk/heroes4/</loc></url>
+  <url><loc>https://deadware.games/uk/how/</loc></url>
+  <url><loc>https://deadware.games/uk/hp2/</loc></url>
   <url><loc>https://deadware.games/uk/rotk/</loc></url>
+  <url><loc>https://deadware.games/uk/stories/</loc></url>
+  <url><loc>https://deadware.games/uk/stories/heroes-4-for-heroes-3-players/</loc></url>
+  <url><loc>https://deadware.games/uk/stories/not-that-chamber-of-secrets/</loc></url>
 </urlset>
