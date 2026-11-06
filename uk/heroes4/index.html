@@ -42,9 +42,10 @@
 <footer><div class="wrap">
 <p>Тут і на GitHub немає файлів чи коду ігор: кожен порт збирається з вашої власної копії.</p>
 <p>Deadware — фанатський проєкт. Він не пов’язаний із видавцями та власниками торгових марок ігор і не схвалений ними; назви ігор вжито лише щоб сказати, яку гру запускає порт.</p>
-<p>© 2026 Deadware</p>
+<p>© 2026 Deadware · <a href="#" id="consent-open">Cookie</a></p>
 </div></footer>
 
-
+<div id="consent" class="consent" role="dialog" aria-live="polite" hidden><div class="wrap"><p>Хочемо рахувати відвідування через Google Analytics. Для цього він ставить cookie. Відмовитеся — сайт працюватиме так само.</p><p class="consent-btns"><button id="consent-yes" class="btn">Дозволити</button><button id="consent-no" class="btn ghost">Ні, дякую</button></p></div></div>
+<script>function dwGA(){if(window.gtag)return;var i="G-G788P2946Y";var s=document.createElement('script');s.async=1;s.src='https://www.googletagmanager.com/gtag/js?id='+i;document.head.appendChild(s);window.dataLayer=window.dataLayer||[];window.gtag=function(){dataLayer.push(arguments)};gtag('js',new Date());gtag('config',i,{anonymize_ip:true});}function dwConsent(){try{return localStorage.getItem('dw-consent')}catch(_){return null}}var b=document.getElementById('consent');function set(v){try{localStorage.setItem('dw-consent',v)}catch(_){}b.hidden=true;if(v==='yes')dwGA();}document.getElementById('consent-yes').onclick=function(){set('yes')};document.getElementById('consent-no').onclick=function(){set('no')};document.getElementById('consent-open').onclick=function(ev){ev.preventDefault();b.hidden=false};var c=dwConsent();if(c==='yes')dwGA();else if(c!=='no')b.hidden=false;</script>
 </body>
 </html>
