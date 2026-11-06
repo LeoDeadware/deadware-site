@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Harry Potter and the Chamber of Secrets for Mac (Xbox port, Apple Silicon)</title>
+<meta name="description" content="Play Harry Potter and the Chamber of Secrets on a Mac: the original Xbox game as a native Apple Silicon app, 60 fps and widescreen. Free, built from your own disc.">
+<link rel="canonical" href="https://deadware.games/hp2/">
+<link rel="alternate" hreflang="en" href="https://deadware.games/hp2/">
+<link rel="alternate" hreflang="uk" href="https://deadware.games/uk/hp2/">
+<link rel="alternate" hreflang="x-default" href="https://deadware.games/hp2/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Harry Potter and the Chamber of Secrets for Mac (Xbox port, Apple Silicon)">
+<meta property="og:description" content="Play Harry Potter and the Chamber of Secrets on a Mac: the original Xbox game as a native Apple Silicon app, 60 fps and widescreen. Free, built from your own disc.">
+<meta property="og:url" content="https://deadware.games/hp2/">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://deadware.games/img/og-hp2.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0d0f0e">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/css/site.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "SoftwareApplication", "name": "Harry Potter and the Chamber of Secrets on Mac", "operatingSystem": "macOS", "applicationCategory": "GameApplication", "description": "Play Harry Potter and the Chamber of Secrets on a Mac: the original Xbox game as a native Apple Silicon app, 60 fps and widescreen. Free, built from your own disc.", "inLanguage": "en", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I play Harry Potter and the Chamber of Secrets on a Mac?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Deadware rebuilds the original Xbox version as a native macOS app for Apple Silicon Macs, from your own disc."}}, {"@type": "Question", "name": "Can I play with a keyboard?", "acceptedAnswer": {"@type": "Answer", "text": "No. It's a console game made for a gamepad, so you need one: Xbox, PlayStation or Switch Pro."}}, {"@type": "Question", "name": "Why the Xbox version and not the PC one?", "acceptedAnswer": {"@type": "Answer", "text": "The Xbox version is the console game with its own levels, combat and camera, different from the 2002 PC game."}}, {"@type": "Question", "name": "Didn't the game already come out on Mac?", "acceptedAnswer": {"@type": "Answer", "text": "The 2003 Mac release was the PC game for PowerPC Macs and Mac OS 9/X; it does not run on today's Macs. This port is the Xbox version, native on Apple Silicon."}}, {"@type": "Question", "name": "Does it work on Intel Macs?", "acceptedAnswer": {"@type": "Answer", "text": "No, only Macs with an Apple chip (M1 and newer)."}}, {"@type": "Question", "name": "Do I need an emulator like xemu?", "acceptedAnswer": {"@type": "Answer", "text": "No. It's a regular Mac app: install it and play."}}, {"@type": "Question", "name": "Is it free?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. The port will be free; you need your own copy of the game."}}]}]}</script>
+</head>
+<body>
+<header class="top"><div class="wrap">
+<a class="brand" href="/">dead<span>ware</span></a>
+<nav class="main"><a href="/hp2/" aria-current=page>Harry Potter 2</a><a href="/heroes4/">Heroes IV</a><a href="/rotk/">Return of the King</a></nav>
+<div class="lang"><a href="/hp2/" hreflang="en" aria-current=true>EN</a> / <a href="/uk/hp2/" hreflang="uk">UK</a></div>
+</div></header>
+<main class="wrap">
+<div class="hero"><div class="kicker">Xbox → Mac · Playable</div><h1>Harry Potter and the Chamber of Secrets on Mac</h1><p class="lead">The original Xbox game, rebuilt as a native app for Apple Silicon Macs: 60 fps, widescreen, HD textures, any gamepad. You bring your own disc; the port does the rest.</p>
+</div>
+<p class="note">The source code is not public yet; it will be linked here when it is.</p>
+<section><h2>What you get</h2><ul class="features"><li><b>A real Mac app</b>The Xbox game is rebuilt once into a regular app for Apple Silicon Macs. Click the icon and play.</li><li><b>60 fps, widescreen</b>16:10 picture rendered at up to 4× (about 3072×1920) on Retina displays.</li><li><b>English and Ukrainian</b>Two versions of the game: the original English, or Ukrainian text with the original voices.</li><li><b>Any gamepad</b>Xbox, PlayStation or Switch Pro controllers. A gamepad is required: the game is made for sticks.</li><li><b>Modern camera, skippable scenes</b>Free camera on the right stick; skip videos and cutscenes.</li></ul></section>
+<section><h2>Screenshots</h2><div class="gallery"><figure><img src="/img/hp2-level1.jpg" alt="The Burrow, widescreen" loading="lazy"><figcaption>The Burrow, widescreen</figcaption></figure><figure><img src="/img/hp2-street.jpg" alt="Knockturn Alley with HD textures" loading="lazy"><figcaption>Knockturn Alley with HD textures</figcaption></figure><figure><img src="/img/hp2-fight-en.jpg" alt="Spider fight" loading="lazy"><figcaption>Spider fight</figcaption></figure><figure><img src="/img/hp2-inventory-en.jpg" alt="HD interface" loading="lazy"><figcaption>HD interface</figcaption></figure></div><p class="gallery-note"><small>Screens from the port&#x27;s automated test runs on a Mac.</small></p></section>
+<section><h2>What you need</h2><ul><li>A Mac with an Apple chip (M1 or newer).</li><li>Your own disc of <i>Harry Potter and the Chamber of Secrets</i> for the original Xbox, US version (NTSC-US), as a disc image. The game itself is not included.</li><li>Comfort with Terminal: today the port is built from source.</li></ul></section>
+<section><h2>How to install</h2><ol class="steps"><li>Install dependencies: <code>tools/bootstrap.sh</code>.</li><li>Extract your disc image: <code>tools/xiso_extract.py</code> into <code>game/extracted/</code>.</li><li>Recompile and build: <code>lift/lift.sh</code>, then CMake (the README has the exact commands).</li><li>Make the app: <code>tools/install_app.sh out</code> → <code>~/Applications/HP2.app</code>.</li><li>Optional packs (Ukrainian, HD) from Releases go into <code>mods/</code>.</li></ol></section>
+<section><h2>Questions</h2><details><summary>Can I play Harry Potter and the Chamber of Secrets on a Mac?</summary><p>Yes. Deadware rebuilds the original Xbox version as a native macOS app for Apple Silicon Macs, from your own disc.</p></details><details><summary>Can I play with a keyboard?</summary><p>No. It&#x27;s a console game made for a gamepad, so you need one: Xbox, PlayStation or Switch Pro.</p></details><details><summary>Why the Xbox version and not the PC one?</summary><p>The Xbox version is the console game with its own levels, combat and camera, different from the 2002 PC game.</p></details><details><summary>Didn&#x27;t the game already come out on Mac?</summary><p>The 2003 Mac release was the PC game for PowerPC Macs and Mac OS 9/X; it does not run on today&#x27;s Macs. This port is the Xbox version, native on Apple Silicon.</p></details><details><summary>Does it work on Intel Macs?</summary><p>No, only Macs with an Apple chip (M1 and newer).</p></details><details><summary>Do I need an emulator like xemu?</summary><p>No. It&#x27;s a regular Mac app: install it and play.</p></details><details><summary>Is it free?</summary><p>Yes. The port will be free; you need your own copy of the game.</p></details></section>
+</main>
+<footer><div class="wrap">
+<p>No game files or game code are hosted here or on GitHub: every port builds from your own copy.</p>
+<p>Deadware is a fan project. It is not affiliated with or endorsed by the publishers or trademark owners of the games; their names are used only to say which game a port runs.</p>
+<p>© 2026 Deadware</p>
+</div></footer>
+
+</body>
+</html>
