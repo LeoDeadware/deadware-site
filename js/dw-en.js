@@ -64,9 +64,9 @@ function pigSVG(sign) {
 }
 
 const ANSWERS = [
-  ['hp2-level1.jpg', 'No, it won’t run on an Intel Mac. Get yourself a proper Mac.'],
-  ['hp2-street.jpg', 'Yes, free. No, you don’t need to donate.'],
-  ['heroes4-map.jpg', 'An English version of Heroes is planned. When — ask the agents, they don’t sleep.'],
+  ['hp2-burrow-en.jpg', 'No, it won’t run on an Intel Mac. Get yourself a proper Mac.'],
+  ['hp2-knockturn-en.jpg', 'Yes, free. No, you don’t need to donate.'],
+  ['h4-battle-en.jpg', 'An English version of Heroes is planned. When — ask the agents, they don’t sleep.'],
   ['rotk-gandalf-breach-en.jpg', 'An emulator? We don’t pretend to be an Xbox, we rewrite the game for the Mac.'],
   ['hp2-inventory-en.jpg', 'How long without power? Longer than your power bank can take your whining.'],
 ];
@@ -93,8 +93,8 @@ function slider(img, before, after) {
 }
 
 const GAMES = [
-  { id: 'hp2', title: 'Harry Potter and the Chamber of Secrets', img: 'hp2-level1.jpg', badge: 'Playable', sub: 'Xbox 2002 → Mac. 60 fps, widescreen, HD.', note: 'Code not public yet' },
-  { id: 'heroes4', title: 'Heroes of Might and Magic IV', img: 'heroes4-map.jpg', badge: 'Playable', sub: 'Both expansions. In Ukrainian.', note: 'UA ✓' },
+  { id: 'hp2', title: 'Harry Potter and the Chamber of Secrets', img: 'hp2-burrow-en.jpg', badge: 'Playable', sub: 'Xbox 2002 → Mac. 60 fps, widescreen, HD.', note: 'Code not public yet' },
+  { id: 'heroes4', title: 'Heroes of Might and Magic IV', img: 'h4-map-en.jpg', badge: 'Playable', sub: 'Both expansions. In Ukrainian.', note: 'UA ✓' },
   { id: 'rotk', title: 'The Lord of the Rings: The Return of the King', img: null, badge: 'Raising it', sub: 'Levels already play in tests.', note: 'In development', dev: true },
 ];
 const QUEUE = ['NFS Underground 2', 'BFME', 'Matrix: Path of Neo', 'Prisoner of Azkaban', '007 Nightfire', 'The Warriors', 'Constantine', 'KOTOR', 'Manhunt', 'Max Payne 2'];
@@ -265,9 +265,9 @@ var HOW='<section id="how" class="sec"><div class="wrap"><h2>How it works</h2><o
  '<li><b>The port from GitHub.</b> Download the release: it builds the game from your copy into a native app for Apple Silicon Macs.</li>'+
  '<li><b>An icon on your desktop.</b> Launch it and play: 60 fps, widescreen, even during a blackout.</li></ol></div></section>';
 var SLIDES=[
- {mark:'Harry Potter',tag:'and the Chamber of Secrets',img:'hp2-level1.jpg',h:'The Chamber of Secrets has opened on the Mac',sub:'Xbox 2002 → Apple Silicon',body:'The same Hogwarts, except now it lives on your MacBook longer than Lockhart holds on to his memory.',b:[['Game page','#game']],
+ {mark:'Harry Potter',tag:'and the Chamber of Secrets',img:'hp2-burrow-en.jpg',h:'The Chamber of Secrets has opened on the Mac',sub:'Xbox 2002 → Apple Silicon',body:'The same Hogwarts, except now it lives on your MacBook longer than Lockhart holds on to his memory.',b:[['Game page','#game']],
   done:[['A native Mac app','The game was rewritten for the Mac once, so it opens from an icon like any other app.'],['60 fps, widescreen','16:10 picture, rendered at up to ×4 (about 3072×1920) on Retina.'],['Any gamepad','Xbox, PlayStation or Switch Pro. The game was made for sticks, so we’re not bending it to a keyboard.'],['A modern camera','Free camera on the right stick, skippable videos and cutscenes.']]},
- {mark:'Heroes of Might and Magic IV',tag:'both expansions',img:'heroes4-map.jpg',h:'The Heroes have risen from the grave',sub:'PC 2002 → Apple Silicon',body:'Take turns till dawn: the map now updates 60 times a second, not 20.',b:[['Game page','#game']],
+ {mark:'Heroes of Might and Magic IV',tag:'both expansions',img:'h4-map-en.jpg',h:'The Heroes have risen from the grave',sub:'PC 2002 → Apple Silicon',body:'Take turns till dawn: the map now updates 60 times a second, not 20.',b:[['Game page','#game']],
   done:[['Both expansions','Complete Edition: the base game, The Gathering Storm and Winds of War.'],['Ukrainian version','Interface, campaigns and campaign voice-over.'],['Widescreen and Retina','A sharp picture, smoothing filter on F10.'],['Smooth animation','Smooth movement on the adventure map and in combat.'],['One-step setup','One command installs everything from the GOG installer, in about 40 minutes.']]}];
 function showcase(){
  var bg='',sl='',th='',dn='';
@@ -379,7 +379,7 @@ const MAIL='deadwareproject@gmail.com';
 /* only games that play; a new release is one more record */
 const DB=[
  {id:'heroes4',title:'Heroes of Might and Magic IV',orig:'Heroes of Might and Magic IV',alt:'Heroes 4, HoMM4, Heroes of Might and Magic 4',year:2002,
-  img:'heroes4-map.jpg',shots:['heroes4-map.jpg'],
+  img:'h4-map-en.jpg',shots:['h4-map-en.jpg','h4-battle-en.jpg','h4-town-en.jpg'],
   sub:'With both expansions and a Ukrainian translation it never had.',
   h1:'Heroes of Might and Magic IV on Mac',
   lead:'The same “Heroes 4” that made a whole generation skip lectures. Now it lives on your MacBook as a regular app — and finally speaks Ukrainian.',
@@ -392,7 +392,7 @@ const DB=[
   faq:[['Can I play Heroes 4 on a Mac?','Yes. The port runs the game as a regular app on any Mac with an Apple chip.'],['Do I need to buy the game?','Yes, the Complete Edition on GOG. We only turn your copy into a Mac version — we don’t have the game itself.'],['How long does the install take?','About forty minutes, of which about ten need you: the Mac does the rest on its own.'],['Is everything translated?','Almost. The six original campaigns, Winds of War and the whole interface — yes. The Gathering Storm campaigns are in English.'],['Can I play online?','No, we switched it off on purpose: the servers are long dead, and your Mac doesn’t need an extra hole into the internet.'],['Is there English?','Right now — Ukrainian only. Let the world wait for us for once.'],['Is it really free?','Yes. No donations, subscriptions or “premium versions”.'],['Can I change how the picture looks?','Yes, F10 switches filters: from sharp to smooth, to your taste.'],['How do I know if my Mac has an Apple chip?','The apple in the top-left corner → “About This Mac”. If the “Chip” line says Apple — you’re in the club.'],['The Mac won’t open the installer?','Right-click it → “Open” → “Open” again. We don’t pay Apple for the right to be trusted, so it gets a little nervous.']],
   q:['heroes of might and magic 4 mac','heroes 4 mac m1','heroes of might and magic 4 mac','heroes of might and magic 4 apple silicon']},
  {id:'hp2',title:'Harry Potter and the Chamber of Secrets',orig:'Harry Potter and the Chamber of Secrets',alt:'HP2, Harry Potter 2',year:2002,
-  img:'hp2-level1.jpg',shots:['hp2-level1.jpg','hp2-street.jpg','hp2-fight-en.jpg','hp2-inventory-en.jpg'],
+  img:'hp2-burrow-en.jpg',shots:['hp2-burrow-en.jpg','hp2-knockturn-en.jpg','hp2-spiders-en.jpg','hp2-inventory-en.jpg','hp2-diagon-en.jpg'],
   sub:'The Xbox version that nobody ever saw on a computer.',
   h1:'Harry Potter and the Chamber of Secrets on Mac',
   lead:'Not the PC version you remember from the internet café, but the console one, from the Xbox: different levels, different fights, a different camera. Now on the Mac, smooth and full-screen.',
@@ -423,7 +423,7 @@ const G={};DB.forEach(g=>G[g.id]=g);
 /* stories — Moody / Welsh: smart, dry, a little contemptuous, never cosy */
 const POSTS=[
  /* why read it: you learn the real differences of H4 and stop playing it like «трійку» */
- {slug:'heroes-4-for-heroes-3-players',title:'“Heroes IV” for people who grew up on “Heroes III”',date:'2026-11-05',game:'heroes4',img:'heroes4-map.jpg',doodle:'helm',pull:'The hero no longer stands on the sidelines. He fights himself — and falls himself.',
+ {slug:'heroes-4-for-heroes-3-players',title:'“Heroes IV” for people who grew up on “Heroes III”',date:'2026-11-05',game:'heroes4',img:'h4-map-en.jpg',doodle:'helm',pull:'The hero no longer stands on the sidelines. He fights himself — and falls himself.',
   dek:'For twenty years “Heroes IV” has been trashed by people who played it like “III”. Here are four things to know so you don’t become one of them.',
   body:['“Heroes III” is a religion. “IV” is a heresy, released in 2002 by a studio that was already dying. Most people launched it, saw that everything was wrong, and went back to praying to “III”. Half the complaints about the game are really complaints about playing it wrong.',
    '<b>The hero fights.</b> He no longer stands off-screen with a spellbook. He walks onto the battlefield, hits, gets hit on the head and can fall. So a levelled-up knight isn’t an army ornament but its best fighter, and an unguarded mage is a dead man.',
@@ -433,7 +433,7 @@ const POSTS=[
    'Our port changes none of this: the same game, the same rules, both expansions. The map just updates 60 times a second instead of 20, and the campaigns are in Ukrainian, except The Gathering Storm. The rest is on your conscience.']},
 
  /* why read it: you learn which «Таємна кімната» you actually played and why the Xbox one is a different game */
- {slug:'not-that-chamber-of-secrets',title:'You played the wrong “Chamber of Secrets”',date:'2026-11-06',game:'hp2',img:'hp2-street.jpg',doodle:'tv',pull:'Same book. Different game.',
+ {slug:'not-that-chamber-of-secrets',title:'You played the wrong “Chamber of Secrets”',date:'2026-11-06',game:'hp2',img:'hp2-diagon-en.jpg',doodle:'tv',pull:'Same book. Different game.',
   dek:'In 2002 one book became several different games. Let’s work out which one you got and why the Xbox version isn’t the same game with better graphics.',
   body:['In 2002 the second book became not one game but several. The computer version was made by KnowWonder. The PlayStation 2, Xbox and GameCube versions — by a completely different studio, Eurocom. Same story, different games, like two adaptations of one book by two directors who aren’t on speaking terms.',
    '<b>How to tell which one you played.</b> If at an internet café or at home on a PC — the KnowWonder version. If at a friend’s with a console — the Eurocom version. The 2003 Mac release, by the way, was a port of the computer version, so Mac owners played the “computer” one too.',
