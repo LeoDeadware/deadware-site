@@ -1,0 +1,35 @@
+# Deadware
+
+> Deadware turns old games into native macOS apps for Apple Silicon Macs (M1 and newer, macOS 26 or newer): original Xbox games and classic PC games. Not an emulator, not Wine. You bring your own copy of the game (a disc image or a GOG installer); the installer builds a regular Mac app from it on your Mac. Deadware ships no game data and no game code. A non-commercial fan project by one Ukrainian developer and a team of AI agents; every game is in English and Ukrainian.
+
+Common facts for every port:
+- Needs a Mac with Apple Silicon (M1, M2, M3, M4 or newer) and macOS 26 or newer. Intel Macs and older macOS are not supported.
+- The app isn't signed by Apple: the first launch is right-click → Open → Open.
+- The installer offers Apple's Command Line Tools if the Mac doesn't have them; the game is built once, on the player's Mac.
+- Download: one DMG per game from the game's GitHub release (links below).
+
+## Games
+
+- [Heroes of Might and Magic IV for Mac](https://deadware.games/heroes4/): the PC game with both expansions (The Gathering Storm, Winds of War) as a native Apple Silicon app. Needs your own GOG installer of Heroes of Might and Magic IV Complete (3.0). Adventure map at 60 fps instead of 20, widescreen, sharp on Retina. Mouse only. Build takes 15–40 minutes once; 5 GB free while building, about 1.9 GB after. English and Ukrainian (all six original campaigns, the tutorial, Winds of War and the interface; The Gathering Storm is English for now). DMG: https://github.com/LeoDeadware/HoMM4Deadware/releases/latest/download/Heroes.IV.dmg
+- [Harry Potter and the Chamber of Secrets (Xbox) for Mac](https://deadware.games/hp2/): the original Xbox version, not the PC one (its own levels, fights and camera). Needs your own disc image of the US Xbox edition (the EU edition is untested). 60 fps, 16:10 widescreen, rendered at 4× (about 3072×1920 on Retina), HD textures. Gamepad only (Xbox, DualSense, DualShock 4, Switch Pro, 8BitDo; no keyboard). Build takes about 20 minutes once; about 2.8 GB after. English and Ukrainian text. DMG: https://github.com/LeoDeadware/HP2Deadware/releases/latest/download/HP2.dmg
+- [The Lord of the Rings: The Return of the King (Xbox) for Mac](https://deadware.games/rotk/): the original Xbox game. Needs your own disc image of the US Xbox edition (the EU edition is untested). 60 fps (120 fps on ProMotion screens), the Mac's native resolution, HD textures on all 17 levels. Gamepad only. Build takes about 2 minutes once; about 3.8 GB after, plus about 2 GB temporarily while installing. English and Ukrainian. DMG: https://github.com/LeoDeadware/ROTKDeadware/releases/latest/download/ROTK.dmg
+
+## Help
+
+- [How it works](https://deadware.games/how/): what the installer does with your copy and why it isn't emulation.
+- [FAQ](https://deadware.games/faq/): requirements, gamepads, languages.
+- [All games](https://deadware.games/games/)
+
+## Ukrainian
+
+- [Deadware українською](https://deadware.games/uk/): ті самі ігри й інструкції українською.
+- [Герої Меча і Магії IV на Маку](https://deadware.games/uk/heroes4/)
+- [Гаррі Поттер і Таємна кімната (Xbox) на Маку](https://deadware.games/uk/hp2/)
+- [Володар перснів: Повернення короля (Xbox) на Маку](https://deadware.games/uk/rotk/)
+
+## Optional
+
+- [Stories](https://deadware.games/stories/): why Heroes 4 is worth it for Heroes 3 players; how the Xbox Chamber of Secrets differs from the PC one.
+- [For enthusiasts](https://deadware.games/enthusiasts/): how to help with recompilation, localisation and voice work.
+- [About](https://deadware.games/about/)
+- Source code and releases: https://github.com/LeoDeadware
