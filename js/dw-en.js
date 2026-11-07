@@ -67,7 +67,7 @@ const ANSWERS = [
   ['hp2-burrow-en.jpg', 'No, it won’t run on an Intel Mac. Get yourself a proper Mac.'],
   ['hp2-knockturn-en.jpg', 'Yes, free. No, you don’t need to donate.'],
   ['h4-battle-en.jpg', 'An English version of Heroes is planned. When — ask the agents, they don’t sleep.'],
-  ['rotk-minas-tirith.jpg', 'An emulator? We don’t pretend to be an Xbox, we rewrite the game for the Mac.'],
+  ['rotk-hero.jpg', 'An emulator? We don’t pretend to be an Xbox, we rewrite the game for the Mac.'],
   ['hp2-diagon-en.jpg', 'How long without power? Longer than your power bank can take your whining.'],
 ];
 
@@ -290,7 +290,7 @@ document.addEventListener('mouseout',function(e){var r=document.querySelector('.
 function card(g){return '<a class="card'+(g.dev?' card-dev':'')+'" href="'+(g.id==='heroes4'?'#game':'#games')+'">'+(g.img?'<img src="'+IMG+g.img+'" alt="'+g.title+' on Mac">':'<div class="card-ph">☠ still in the grave</div>')+
  '<div class="card-b"><span class="badge'+(g.dev?' badge-dev':'')+'">'+g.badge+'</span><h3>'+g.title+'</h3><p>'+g.sub+'</p><small>'+g.note+'</small></div></a>';}
 /* v89: no «скоро»/process notes on cards */var CARD_TXT={hp2:'The Xbox version. 60 fps, widescreen, HD.',heroes4:'Both expansions, in Ukrainian.',rotk:'The Xbox version. 60 fps, your Mac’s native resolution.'};
-/* v119: ROTK is playable (Head, 2026-11-06): a regular card, like HP2 */GAMES.forEach(function(g){if(g.id==='rotk'){g.img='rotk-minas-tirith.jpg';g.badge='Playable';g.dev=false;}});
+/* v119: ROTK is playable (Head, 2026-11-06): a regular card, like HP2 */GAMES.forEach(function(g){if(g.id==='rotk'){g.img='rotk-hero.jpg';g.badge='Playable';g.dev=false;}});
 function cards6(){var all=GAMES.filter(function(g){return !g.dev;}).map(function(g){return Object.assign({},g,{sub:CARD_TXT[g.id]||g.sub,note:''});});return '<div class="cards cards2">'+all.map(card).join('')+'</div><div class="fk-slot"></div>';}
 var VP=['A native Mac app','Free, from your own copy of the game','60 fps, widescreen, Retina','In Ukrainian and English'];
 var HERO2='<section class="hero h2c"><div class="wrap"><div><h1>Old games rise from the dead. On your Mac.</h1>'+
@@ -405,7 +405,7 @@ const DB=[
   faq:[['The Mac won’t open the game?','Right-click “Harry Potter” → «Open» → «Open» again. We don\'t pay Apple for the right to be trusted, so it gets a little nervous.'],['How long does the install take?','About 20 minutes if Apple’s developer tools are already on your Mac. If not, the installer offers to install them, and that takes longer.'],['Can I play “Chamber of Secrets” on a Mac?','Yes, the Xbox version. The installer turns your disc into a regular Mac app.'],['What do I need to set up?','Nothing. It’s a regular Mac app: click the icon, play.'],['Why the Xbox version?','Because it’s a different game: its own levels, fights and camera that never existed on computers. And, between us, a better one.'],['Can it look like it used to?','Yes. F2 switches the picture mode, including “TV 2002” — with the same blur you, it turns out, miss.'],['Can I skip the videos?','Yes. A video — with one press, a cutscene — by holding the button for four seconds, so you don’t skip the story by accident.'],['Will it run on an old Intel Mac?','No. It’s built for Apple chips; it won’t launch on Intel.'],['What about a keyboard?','No, gamepad only. A console game on keys is like playing guitar in mittens.'],['Will the European edition work?','We haven’t tested it yet. The installer will tell you if something’s off.'],['How do I know if my Mac has an Apple chip?','The apple in the top-left corner → “About This Mac”. If the “Chip” line says Apple — you’re in the club.'],['The Mac won’t open the installer?','Right-click it → “Open” → “Open” again. We don’t pay Apple for the right to be trusted, so it gets a little nervous.']],
   q:['harry potter chamber of secrets mac','how to play harry potter chamber of secrets on mac','harry potter chamber of secrets xbox mac']},
 {id:'rotk',title:'The Lord of the Rings: The Return of the King',orig:'The Lord of the Rings: The Return of the King',alt:'ROTK, LOTR ROTK, LOTR Return of the King',year:2003,
-  img:'rotk-minas-tirith.jpg',shots:['rotk-minas-tirith.jpg'],
+  img:'rotk-hero.jpg',shots:['rotk-hero.jpg','rotk-helms.jpg','rotk-gate.jpg','rotk-pelennor.jpg'],
   sub:'The Xbox version: Gandalf, Aragorn and a pile of orcs, now on your Mac.',
   h1:'The Lord of the Rings: The Return of the King on Mac',
   lead:'The same Peter Jackson movie game where a shot from the film slides straight into a fight. Now the Xbox version runs on your Mac: 60 fps, your screen’s native resolution, English and Ukrainian.',
