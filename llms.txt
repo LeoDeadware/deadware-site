@@ -13,6 +13,7 @@ Common facts for every port:
 - [Heroes of Might and Magic IV for Mac](https://deadware.games/heroes4/): the PC game with both expansions (The Gathering Storm, Winds of War) as a native Apple Silicon app. Needs your own GOG installer of Heroes of Might and Magic IV Complete (3.0). Adventure map at 60 fps instead of 20, widescreen, sharp on Retina. Mouse only. Build takes 15–40 minutes once; 5 GB free while building, about 1.9 GB after. English and Ukrainian (all six original campaigns, the tutorial, Winds of War and the interface; The Gathering Storm is English for now). DMG: https://github.com/LeoDeadware/HoMM4Deadware/releases/latest/download/Heroes.IV.dmg
 - [Harry Potter and the Chamber of Secrets (Xbox) for Mac](https://deadware.games/hp2/): the original Xbox version, not the PC one (its own levels, fights and camera). Needs your own disc image of the US Xbox edition (the EU edition is untested). 60 fps, 16:10 widescreen, rendered at 4× (about 3072×1920 on Retina), HD textures. Gamepad only (Xbox, DualSense, DualShock 4, Switch Pro, 8BitDo; no keyboard). Build takes about 20 minutes once; about 2.8 GB after. English and Ukrainian text. DMG: https://github.com/LeoDeadware/HP2Deadware/releases/latest/download/HP2.dmg
 - [The Lord of the Rings: The Return of the King (Xbox) for Mac](https://deadware.games/rotk/): the original Xbox game. Needs your own disc image of the US Xbox edition (the EU edition is untested). 60 fps (120 fps on ProMotion screens), the Mac's native resolution, HD textures on all 17 levels. Gamepad only. Build takes about 2 minutes once; about 3.8 GB after, plus about 2 GB temporarily while installing. English and Ukrainian. DMG: https://github.com/LeoDeadware/ROTKDeadware/releases/latest/download/ROTK.dmg
+- [Need for Speed Underground 2 (Xbox) for Mac](https://deadware.games/nfsu2/): the original Xbox game. Needs your own disc image of the US Xbox edition (the EU edition is untested). Steady 60 fps, 4x sharper picture, 16:10 with no black bars, HD textures (ours and community packs, authors credited). Gamepad only. Built on your Mac from your disc in a few minutes. English and Ukrainian. DMG: https://github.com/LeoDeadware/NFSU2Deadware/releases/latest/download/NFSU2-players.dmg
 
 ## Help
 
@@ -26,6 +27,7 @@ Common facts for every port:
 - [Герої Меча і Магії IV на Маку](https://deadware.games/uk/heroes4/)
 - [Гаррі Поттер і Таємна кімната (Xbox) на Маку](https://deadware.games/uk/hp2/)
 - [Володар перснів: Повернення короля (Xbox) на Маку](https://deadware.games/uk/rotk/)
+- [Need for Speed Underground 2 (Xbox) на Маку](https://deadware.games/uk/nfsu2/)
 
 ## Optional
 
