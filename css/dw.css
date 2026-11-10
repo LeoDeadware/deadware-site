@@ -387,7 +387,7 @@ h2{text-shadow:0 0 12px #c1121f4d}
 @media (max-width:600px){.feat,.cat,.rel,.shots,.team{grid-template-columns:1fr}.steps li{padding-left:62px}.spec th{width:40%}}
 /* v62 */
 .cards2{grid-template-columns:repeat(2,minmax(0,1fr))!important}
-/* v119: three games → three columns on wide screens */@media (min-width:900px){.cards2:has(>.card:nth-child(3)){grid-template-columns:repeat(3,minmax(0,1fr))!important}}
+/* v120 (owner 2026-11-10): one row of cards — 3 cards → 3 columns, 4 → 4 (2×2 on medium screens) */@media (min-width:900px){:is(.cards2,.rel,.cat):has(>.card:nth-child(3):last-child){grid-template-columns:repeat(3,minmax(0,1fr))!important}:is(.cards2,.rel,.cat):has(>.card:nth-child(4):last-child){grid-template-columns:repeat(2,minmax(0,1fr))!important}}@media (min-width:1100px){:is(.cards2,.rel,.cat):has(>.card:nth-child(4):last-child){grid-template-columns:repeat(4,minmax(0,1fr))!important}}
 .cat{grid-template-columns:repeat(2,minmax(0,1fr))}.rel{grid-template-columns:repeat(2,minmax(0,1fr))}
 .feat4{grid-template-columns:repeat(4,minmax(0,1fr))}
 .sub-h{font:600 13px var(--mono);color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin:26px 0 12px}
